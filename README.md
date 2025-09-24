@@ -9,12 +9,12 @@ All Gates Perceptron with JAX – A minimal Python implementation of perceptrons
 ## Concept Covered 
 * Perceptron Learning Rule with gradient descent
 * Sigmoid activation function and its derivative:
-$$
+```math
   \sigma(x) = \frac{1}{1 + e^{-x}}
-$$
-$$
+```
+```math
   \sigma'(x) = \sigma(x)\,(1 - \sigma(x))
-$$
+```
 * High learning rate (10) for faster convergence on small datasets
 * Training with JAX for efficient computation
 
